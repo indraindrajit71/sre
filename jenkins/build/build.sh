@@ -4,7 +4,7 @@ echo -e "**********************************************"
 echo -e "*****copy the new jar to build location*******"
 echo -e "**********************************************"
 
-cp -pr java-app/target/*.jar jenkins/build/
+#cp -pr java-app/target/*.jar jenkins/build/
 
 echo -e "**********************************************"
 echo -e "*****building Docker Images*******************"
