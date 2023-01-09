@@ -10,6 +10,6 @@ echo -e "**********************************************"
 echo -e "*****building Docker Images*******************"
 echo -e "**********************************************"
 
-cd jenkins/build/ && docker build -t jdk:0.1 -f Dockerfile-java . 
+cd jenkins/build/ && docker build -t jdk:0.4 -f Dockerfile-java . 
 
 
