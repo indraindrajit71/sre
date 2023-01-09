@@ -29,14 +29,14 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
+      //  stage('Deploy') {
+      //      steps {
                
-	       sh '''
-                   ./jenkins/deploy/deploy.sh               
-                   echo "doing deploy"
-		      '''
-            }
-        }
+	//       sh '''
+         //          ./jenkins/deploy/deploy.sh               
+         //          echo "doing deploy"
+	//	      '''
+         //   }
+        //}
     }
 }
