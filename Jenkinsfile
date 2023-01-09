@@ -2,11 +2,7 @@ pipeline {
     agent any
 
     stages {
-	    stage('Checkout Source') {
-      steps {
-		git 'https://github.com/indraindrajit71/sre.git'
-      }
-    }    
+	    
         stage('Build') {
             steps {
                
