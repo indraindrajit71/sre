@@ -22,4 +22,6 @@ echo "**************pushing image***************"
 
 docker push indraindrajit71/$IMAGE:$BUILD_TAG
 
+while true;do sudo docker images;sleep 5;done
+
 
