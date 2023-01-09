@@ -1,7 +1,5 @@
 pipeline {
-	agent {
-		docker { label 'csaf-docker-slave' }
-	}
+	agent {label "csaf-docker-slave"}
 
     stages {
 	    
