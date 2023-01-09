@@ -16,15 +16,17 @@ pipeline {
 
      stage('Test') {
             steps {
-               
-                  sh  ./jenkins/test/mvn.sh mvn test
+                  sh '''
+                  ./jenkins/test/mvn.sh mvn test
+		         '''
             }
         }
 
      stage('Push') {
             steps {
-               
-                  sh ./jenkins/push/push.sh
+                  sh '''
+                  ./jenkins/push/push.sh
+		         '''
             }
         }
 
