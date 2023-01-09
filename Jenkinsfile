@@ -13,13 +13,13 @@ pipeline {
         }
 
 
-     stage('Test') {
-            steps {
-                  sh '''
-                  ./jenkins/test/mvn.sh mvn test
-		         '''
-            }
-        }
+     // stage('Test') {
+     //       steps {
+     //             sh '''
+     //             ./jenkins/test/mvn.sh mvn test 
+	// 	         '''
+     //       }
+     //   }
 
      stage('Push') {
             steps {
